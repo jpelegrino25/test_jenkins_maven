@@ -19,6 +19,7 @@ public class ProductController {
         List<Product> products= Arrays.asList(new Product(1L,"Banana", BigDecimal.ONE),
                 new Product(2L,"Banana", BigDecimal.ONE),
                 new Product(3L,"Banana", BigDecimal.ONE));
+        
 
         return ResponseEntity.ok().body(products);
     }
